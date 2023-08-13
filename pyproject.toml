@@ -7,7 +7,13 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-gym = {extras = ["box2d"], version = "^0.26.2"}
+gym = "^0.26.2"
+pygame = "^2.5.0"
+pywin32 = "^306"
+pypiwin32 = "^223"
+gymnasium = "^0.29.0"
+matplotlib = "^3.7.2"
+torch = "^2.0.1"
 
 
 [build-system]
